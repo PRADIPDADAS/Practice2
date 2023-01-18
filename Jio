@@ -1,4 +1,6 @@
-driver.manage().window().maximize();
+		
+		
+		driver.manage().window().maximize();
 		driver.get("https://www.jio.com/help/contact-us#/");
 		driver.findElement(By.xpath("//span[@class='j-icon']")).click();
 		Thread.sleep(3000);
@@ -7,3 +9,5 @@ driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[@href='/mobile']")).click();
 		Thread.sleep(3000);
 		driver.navigate().back();
+		driver.findElement(By.xpath("//span[@class='j-icon']")).click();
+		Thread.sleep(55000);
